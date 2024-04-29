@@ -18,7 +18,9 @@ Next add the Blazicons reference to the `_Imports.razor` file in the Blazor proj
 
 Finally, add the Blazicon component to your Blazor pages/components.
 ```html
-<Blazicon Svg="Devicon.Blazor"></Blazicon>
+<Blazicon Svg="DeviconPlain.Blazor"></Blazicon>
+<Blazicon Svg="DeviconLine.Blazor"></Blazicon>
+<Blazicon Svg="DeviconOriginal.Blazor"></Blazicon>
 ```
 
 ## Parameters & Styling
