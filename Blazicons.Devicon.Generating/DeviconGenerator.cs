@@ -32,24 +32,24 @@ internal class DeviconGenerator : ISourceGenerator
         // required by ISourceGenerator
     }
 
-    internal string GetPropertyName(string fileName)
+    internal static string GetPropertyName(string fileName)
     {
         var result = Path.GetFileNameWithoutExtension(fileName);
         result = Regex.Replace(result, "-(original|plain|line)", string.Empty);
         return result.ToPascalCase();
     }
 
-    internal bool IsLineIcon(string fileName)
+    internal static bool IsLineIcon(string fileName)
     {
         return Regex.IsMatch(fileName, "-line[-.]");
     }
 
-    internal bool IsOriginalIcon(string fileName)
+    internal static bool IsOriginalIcon(string fileName)
     {
         return Regex.IsMatch(fileName, "-original[-.]");
     }
 
-    internal bool IsPlainIcon(string fileName)
+    internal static bool IsPlainIcon(string fileName)
     {
         return Regex.IsMatch(fileName, "-plain[-.]");
     }
