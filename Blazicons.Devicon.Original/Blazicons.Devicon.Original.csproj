@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net8.0;net10.0</TargetFrameworks>
+    <LangVersion>14.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <IsTrimmable>true</IsTrimmable>
+    <DevelopmentDependency>true</DevelopmentDependency>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <BlaziconsRepoUrl>https://github.com/devicons/devicon/archive/refs/heads/master.zip</BlaziconsRepoUrl>
+    <BlaziconsSvgPattern>^icons\/.*-original([-.].*)?\.svg$</BlaziconsSvgPattern>
+    <BlaziconsClassName>DeviconOriginal</BlaziconsClassName>
+    <BlaziconsSvgFolderPath>icons</BlaziconsSvgFolderPath>
+    <BlaziconsGeneratedCodeOutputPath>..\Blazicons.Devicon\Generated</BlaziconsGeneratedCodeOutputPath>
+    <BlaziconsGeneratorPath>Blazicons.Devicon.Generating/Blazicons.Devicon.Generating.DeviconGenerator</BlaziconsGeneratorPath>
+    <BlaziconsPropertyNameRemovalPattern>-original</BlaziconsPropertyNameRemovalPattern>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blazicons" Version="3.0.12" />
+    <PackageReference Include="Blazicons.Generating" Version="3.1.19">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

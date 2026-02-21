@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="azure-pipelines-build.yml" />
+    <File Path="CHANGELOG.md" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Blazicons.Devicon.Line/Blazicons.Devicon.Line.csproj" />
+  <Project Path="Blazicons.Devicon.Original/Blazicons.Devicon.Original.csproj" />
+  <Project Path="Blazicons.Devicon.Plain/Blazicons.Devicon.Plain.csproj" />
+  <Project Path="Blazicons.Devicon/Blazicons.Devicon.csproj" />
+</Solution>
