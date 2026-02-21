@@ -5,7 +5,7 @@ Check out the [Demo Site](http://blazicons.com).
 
 ![Nuget](https://img.shields.io/nuget/v/Blazicons.Devicon)
 
-[![Build Status](https://dev.azure.com/kyleherzog/Blazicons/_apis/build/status/Blazicons.Devicon?branchName=main)](https://dev.azure.com/kyleherzog/Blazicons/_build/latest?definitionId=17&branchName=main)
+[![Build Status](https://dev.azure.com/kyleherzog/Blazicons/_apis/build/status%2FBlazicons.Devicon?branchName=main)](https://dev.azure.com/kyleherzog/Blazicons/_build/latest?definitionId=38&branchName=main)
 
 ## Getting Started
 To get started using the Devicon Blazicons, just install the Blazicons.Devicon NuGet package.
