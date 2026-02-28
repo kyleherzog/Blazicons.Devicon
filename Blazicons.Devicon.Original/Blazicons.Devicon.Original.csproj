@@ -17,11 +17,12 @@
     <BlaziconsGeneratedCodeOutputPath>..\Blazicons.Devicon\Generated</BlaziconsGeneratedCodeOutputPath>
     <BlaziconsGeneratorPath>Blazicons.Devicon.Generating/Blazicons.Devicon.Generating.DeviconGenerator</BlaziconsGeneratorPath>
     <BlaziconsPropertyNameRemovalPattern>-original</BlaziconsPropertyNameRemovalPattern>
+    <BlaziconsSkipColorScrub>true</BlaziconsSkipColorScrub>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Blazicons" Version="3.0.12" />
-    <PackageReference Include="Blazicons.Generating" Version="3.1.19">
+    <PackageReference Include="Blazicons.Generating" Version="3.2.28">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

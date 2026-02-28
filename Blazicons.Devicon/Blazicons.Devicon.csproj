@@ -23,6 +23,7 @@
       <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
       <CompilerGeneratedFilesOutputPath>Generated</CompilerGeneratedFilesOutputPath>
       <Features>experimental-data-section-string-literals</Features>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -49,7 +50,7 @@
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="SonarAnalyzer.CSharp" Version="10.19.0.132793">
+      <PackageReference Include="SonarAnalyzer.CSharp" Version="10.20.0.135146">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
@@ -70,8 +71,17 @@
       <Folder Include="Generated\Blazicons.Devicon.Generating\Blazicons.Devicon.Generating.DeviconGenerator\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Blazicons.Devicon.Line\Blazicons.Devicon.Line.csproj" />
-    <ProjectReference Include="..\Blazicons.Devicon.Original\Blazicons.Devicon.Original.csproj" />
-    <ProjectReference Include="..\Blazicons.Devicon.Plain\Blazicons.Devicon.Plain.csproj" />
+    <ProjectReference Include="..\Blazicons.Devicon.Line\Blazicons.Devicon.Line.csproj">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </ProjectReference>
+    <ProjectReference Include="..\Blazicons.Devicon.Original\Blazicons.Devicon.Original.csproj">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </ProjectReference>
+    <ProjectReference Include="..\Blazicons.Devicon.Plain\Blazicons.Devicon.Plain.csproj">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </ProjectReference>
   </ItemGroup>
 </Project>
