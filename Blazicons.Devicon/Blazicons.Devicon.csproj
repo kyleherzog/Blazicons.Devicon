@@ -23,7 +23,6 @@
       <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
       <CompilerGeneratedFilesOutputPath>Generated</CompilerGeneratedFilesOutputPath>
       <Features>experimental-data-section-string-literals</Features>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
