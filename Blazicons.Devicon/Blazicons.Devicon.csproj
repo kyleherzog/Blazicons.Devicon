@@ -1,28 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-      <TargetFrameworks>net6.0;net8.0;net10.0</TargetFrameworks>
-      <LangVersion>14.0</LangVersion>
-      <ImplicitUsings>enable</ImplicitUsings>
-      <Nullable>enable</Nullable>
-      <ApplicationVersion>2.0</ApplicationVersion>
-      <ApplicationRevision>0</ApplicationRevision>
-      <Version>2.0</Version>
-      <IsTrimmable>true</IsTrimmable>
-      <Authors>Kyle Herzog</Authors>
-      <PackageTags>Blazor Devicon Icons SVG</PackageTags>
-      <Description>Provides the Devicon icons library packaged as Blazicons, SVG icon components for Blazor.</Description>
-      <PackageProjectUrl>https://github.com/kyleherzog/Blazicons.Devicon</PackageProjectUrl>
-      <RepositoryUrl>https://github.com/kyleherzog/Blazicons.Devicon</RepositoryUrl>
-      <PublishRepositoryUrl>true</PublishRepositoryUrl>
-      <IncludeSymbols>true</IncludeSymbols>
-      <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-      <GenerateDocumentationFile>true</GenerateDocumentationFile>
-      <PackageIcon>blazicons-md-128.png</PackageIcon>
-      <PackageReadmeFile>README.md</PackageReadmeFile>
-      <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
-      <CompilerGeneratedFilesOutputPath>Generated</CompilerGeneratedFilesOutputPath>
-      <Features>experimental-data-section-string-literals</Features>
+    <TargetFrameworks>net6.0;net8.0;net10.0</TargetFrameworks>
+    <LangVersion>14.0</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationVersion>2.1</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <Version>2.1</Version>
+    <IsTrimmable>true</IsTrimmable>
+    <Authors>Kyle Herzog</Authors>
+    <PackageTags>Blazor Devicon Icons SVG</PackageTags>
+    <Description>Provides the Devicon icons library packaged as Blazicons, SVG icon components for Blazor.</Description>
+    <PackageProjectUrl>https://github.com/kyleherzog/Blazicons.Devicon</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/kyleherzog/Blazicons.Devicon</RepositoryUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageIcon>blazicons-md-128.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    <CompilerGeneratedFilesOutputPath>Generated</CompilerGeneratedFilesOutputPath>
+    <Features>experimental-data-section-string-literals</Features>
+    <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
   </PropertyGroup>
 
   <ItemGroup>
@@ -33,11 +34,11 @@
   </ItemGroup>
   <ItemGroup>
       <PackageReference Include="Blazicons" Version="3.0.12" />
-      <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.103">
+      <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.201">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.103">
+      <PackageReference Include="Microsoft.SourceLink.GitHub" Version="10.0.201">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
@@ -49,7 +50,7 @@
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="SonarAnalyzer.CSharp" Version="10.20.0.135146">
+      <PackageReference Include="SonarAnalyzer.CSharp" Version="10.21.0.135717">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
