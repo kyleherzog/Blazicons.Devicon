@@ -1,6 +1,9 @@
 # Changelog
 These are the list of changes to each version that has been released.
 
+## 3.0
+- [x] Updated Blazicons to v4.0.21
+
 ## 2.1
 - [x] Fixed some color issues with a few icons that were not honoring currentColor
 
