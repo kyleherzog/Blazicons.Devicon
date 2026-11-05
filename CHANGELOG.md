@@ -1,6 +1,9 @@
 # Changelog
 These are the list of changes to each version that has been released.
 
+## 3.1
+- [x] Updated Devicon library to v2.18.0
+
 ## 3.0
 - [x] Updated Blazicons to v4.0.21
 
